@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+nav {
+  display: flex;
+  height: 50px;
+  background: #1D3142; }
+  nav a img {
+    width: 16px;
+    margin-right: 5px; }
+  nav a:first-child {
+    margin-left: 6rem; }
+  nav a:nth-child(6) {
+    margin-left: auto;
+    color: #E9E3B4; }
+  nav a:nth-child(7) {
+    margin-right: 3rem;
+    color: #E9E3B4; }
+  nav a:hover {
+    color: #F39B6D;
+    background-color: #111c25; }
+  nav a {
+    padding: 0 25px 0 25px;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #F0F0F0;
+    font-size: 1rem;
+    font-weight: 200; }
+
+.show-menu-btn {
+  transition: 0.4s; }
+
+.chk {
+  display: none; }
+
+@media screen and (max-width: 915px) {
+  nav {
+    display: none; } }
+
+/*# sourceMappingURL=maps/navbar.css.map */

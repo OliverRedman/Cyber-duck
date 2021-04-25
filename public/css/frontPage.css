@@ -1,0 +1,39 @@
+main {
+  position: relative; }
+  main .background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(29, 49, 66, 0.788);
+    background-blend-mode: multiply;
+    background-image: url("../images/large/banner-lg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 82vh; }
+    main .background h1 {
+      font-size: 3rem;
+      color: #F0F0F0;
+      max-width: 750px;
+      text-align: center; }
+    main .background button {
+      margin-top: 40px;
+      width: 190px;
+      height: 46px;
+      border-radius: 150px;
+      cursor: pointer;
+      border: none;
+      background-image: linear-gradient(#f39b6d, #f07334);
+      color: #F0F0F0;
+      transition: all 0.2s; }
+      main .background button:hover {
+        transform: scale(1.04); }
+
+@media screen and (max-width: 636px) {
+  .background h1 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.8rem !important; } }
+
+/*# sourceMappingURL=maps/frontPage.css.map */

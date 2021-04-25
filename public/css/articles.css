@@ -1,0 +1,81 @@
+.articles {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  grid-column-gap: 15px;
+  margin-top: 60px; }
+  .articles .art-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px; }
+    .articles .art-item img {
+      width: 300px; }
+    .articles .art-item h2 {
+      font-size: 1rem;
+      margin-bottom: 5px; }
+    .articles .art-item h3 {
+      margin-top: 12px;
+      font-size: 0.8rem;
+      color: #8AA460; }
+    .articles .art-item p {
+      margin-top: 8px;
+      padding-bottom: 25px;
+      color: #737373; }
+    .articles .art-item a {
+      text-align: center;
+      padding: 6px 35px 6px 35px;
+      text-decoration: none;
+      border: 1px solid #3E6990;
+      border-radius: 100px;
+      transition: all 0.1s;
+      color: #3E6990; }
+      .articles .art-item a:hover {
+        border: 1px solid transparent;
+        color: white;
+        background: #3E6990; }
+
+@media only screen and (max-width: 1000px) and (min-width: 636px) {
+  .articles {
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px; }
+    .articles .art-item {
+      position: relative;
+      width: 600px;
+      padding-left: 30px;
+      height: 200px;
+      flex-direction: row;
+      justify-self: center; }
+      .articles .art-item .article-description {
+        margin-top: 30px;
+        margin-left: 20px; }
+      .articles .art-item img {
+        align-self: flex-start;
+        width: 220px; }
+      .articles .art-item h2 {
+        position: absolute;
+        font-size: 1.3rem;
+        top: 10px;
+        left: 270px;
+        align-self: flex-end; } }
+
+@media screen and (max-width: 636px) {
+  .articles {
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    text-align: center; }
+    .articles .art-item {
+      flex-direction: column;
+      justify-self: center; }
+      .articles .art-item img {
+        order: -1; }
+      .articles .art-item h2 {
+        font-size: 1.3rem;
+        margin-top: 10px; }
+      .articles .art-item h3 {
+        margin-top: 0px; }
+      .articles .art-item p {
+        margin-top: 0px; } }
+
+/*# sourceMappingURL=maps/articles.css.map */

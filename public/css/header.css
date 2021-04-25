@@ -1,0 +1,63 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0;
+  padding: 0 0; }
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline-style: none;
+  font-family: "Open Sans", sans-serif; }
+
+header {
+  position: relative;
+  display: flex;
+  background-color: #3E6990;
+  align-items: center;
+  height: 90px; }
+  header h1 {
+    font-family: "Merriweather", serif;
+    margin-left: 6rem;
+    font-size: 1.7rem;
+    color: #E9E3B4; }
+    header h1 span {
+      font-family: "Merriweather", serif;
+      color: #F39B6D; }
+  header p {
+    color: #F0F0F0;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: 10px; }
+  header input {
+    padding-left: 10px;
+    padding-right: 26px;
+    height: 1.7rem;
+    width: 9rem;
+    border-radius: 150px;
+    margin-right: 4rem;
+    border: none;
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.29); }
+  header button {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    right: 4.3rem;
+    align-self: center;
+    background: none;
+    height: 14px; }
+    header button img {
+      height: 14px;
+      padding-right: 5px;
+      transition: all 0.2s; }
+      header button img:hover {
+        transform: scale(1.2); }
+
+@media screen and (max-width: 915px) {
+  header {
+    height: 70px; }
+    header h1 {
+      margin-left: 1.5rem; }
+    header p,
+    header input {
+      display: none; } }
+
+/*# sourceMappingURL=maps/header.css.map */

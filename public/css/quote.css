@@ -1,0 +1,28 @@
+.quote {
+  position: relative;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; }
+  .quote img {
+    position: absolute;
+    top: -33px;
+    width: 90px; }
+  .quote blockquote {
+    max-width: 600px;
+    font-size: 1.3rem;
+    color: #3E6990;
+    text-align: center; }
+
+@media screen and (max-width: 636px) {
+  .quote {
+    height: 200px; }
+    .quote blockquote {
+      margin-left: 22px;
+      margin-right: 22px; } }
+
+/*# sourceMappingURL=maps/quote.css.map */
